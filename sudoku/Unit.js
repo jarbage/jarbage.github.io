@@ -1,10 +1,14 @@
+
+
 export default class Unit {
     
-    constructor(value, x, y, scene) {
+    constructor(value, x, y, z, scene, color) {
         this.x = x;
         this.y = y;
+        this.z = z;
         this.value = value;
         this.scene = scene;
+        this.color = color;
 
         this.cubeSize = 1;
 
@@ -12,23 +16,27 @@ export default class Unit {
     }
 
     /* Returns cube index */
-    static getIndex(x, y) {
-        return (x % 9) + (y * 9)
+    static getIndex(x, y, z) {
+        return (x % 9) + (y * 9) + (z * 81)
     }
 
     /* Creates metaCube for the Unit */
     createCube() {
         let metaCube = this.cubeBuilder()
-        this.scene.add(metaCube);
-        return metaCube
+        return metaCube;
     }
 
     /* Constructs a generic cube */
-    cubeBuilder(/*--color--*/){
-        let metaMaterial =  new THREE.MeshBasicMaterial({color: 0xC0C0C0, wireframe: false });
-        let metaGeometry = new THREE.BoxGeometry(this.cubeSize, this.cubeSize, this.cubeSize);
+    cubeBuilder(){
+        let metaMaterial =  new THREE.MeshToonMaterial({color: this.color});
+        let metaGeometry = new THREE.BoxBufferGeometry(this.cubeSize, this.cubeSize, this.cubeSize);
         let metaCube = new THREE.Mesh(metaGeometry, metaMaterial);
         return metaCube;
+    }
+
+    //Loads metacubes into the scene
+    loadScene() {
+        this.scene.add(this.metaCube);
     }
 
 

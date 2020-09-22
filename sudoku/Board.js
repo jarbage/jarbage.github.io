@@ -17,12 +17,13 @@ export default class Board {
             let x = i % 9;
             let y = parseInt(i / 9, 0);
 
+            //If a board is passed in, load that board
             let value = 0 //CHANGE LATER
             if(board != null) {
                 value = board[i]
             }
 
-            let unit = new Unit(value, x, y, i, this.scene);
+            let unit = new Unit(value, x, y, 0, this.scene);
             units[i] = unit;
         }
         return units;
@@ -58,7 +59,7 @@ export default class Board {
             //Clear numbers array for every use
             numbers = new Array(9).fill(0);
             for(let y = 0; y < 9; y++) {
-                let index = Unit.getIndex(x, y);
+                let index = Unit.getIndex(x, y, 0);
                 let unit = this.units[index];
                 numbers[unit.value - 1] = 1;
             }
@@ -67,9 +68,11 @@ export default class Board {
             let correct = numbers.every(function (val) {
                 return val > 0;
             });
-            //If not all values are in the row
-            if(!correct) 
-                return false
+           //If not all values are in the row
+           if(!correct) {
+            console.log("Error in y-vector")
+            return false;
+            }
         }
 
         //Check all x-vectors for mistakes
@@ -77,7 +80,7 @@ export default class Board {
             //Clear numbers array for every use
             numbers = new Array(9).fill(0);
             for(let x = 0; x < 9; x++) {
-                let index = Unit.getIndex(x, y);
+                let index = Unit.getIndex(x, y, 0);
                 let unit = this.units[index];
                 numbers[unit.value - 1] = 1;
             }
@@ -87,11 +90,56 @@ export default class Board {
                 return val > 0;
             });
             //If not all values are in the row
-            if(!correct) 
-                return false
+            if(!correct) {
+                console.log("Error in x-vector")
+                return false;
+            }
         }
 
+        //Check all 3x3 squares for all values
+        if(!this.checkBox(0, 2, 0, 2))
+            return false;
+        if(!this.checkBox(0, 2, 3, 5))
+            return false;
+        if(!this.checkBox(0, 2, 6, 8))
+            return false;
+        if(!this.checkBox(3, 5, 0, 2))
+            return false;
+        if(!this.checkBox(3, 5, 3, 5))
+            return false;
+        if(!this.checkBox(3, 5, 6, 8))
+            return false;
+        if(!this.checkBox(6, 8, 0, 2))
+            return false;
+        if(!this.checkBox(6, 8, 3, 5))
+            return false;
+        if(!this.checkBox(6, 8, 6, 8))
+            return false;
+
        //Return true if no mistakes are found
+        return true;
+    }
+
+    checkBox(xS, xF, yS, yF) {
+        let numbers = new Array(9).fill(0);
+        for(let x = xS; x <= xF; x++) {
+            //Clear numbers array for every use
+            for(let y = yS; y <= yF; y++) {
+                let index = Unit.getIndex(x, y, 0);
+                let unit = this.units[index];
+                numbers[unit.value - 1] = 1;
+            }
+        }
+        //Check that each 1-9 value is in the vector
+        let correct = numbers.every(function (val) {
+            return val > 0;
+        });
+        //If not all values are in the row
+        if(!correct) {
+            console.log("Error in box")
+            return false;
+        }
+
         return true;
     }
 }
