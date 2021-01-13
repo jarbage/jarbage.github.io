@@ -51,16 +51,20 @@ function init() {
 	var light = new THREE.PointLight(0xebe8d6, 2.5, 100);
 	light.position.set( 50, 50, 50 );
 	scene.add( light );
+
+	var light2 = new THREE.PointLight(0xebe8d6, 0.3, 100);
+	light2.position.set( 0, 0, 0 );
+	scene.add( light2 );
 	
 	sodokuBoard = new Cube(scene, solvedBoard, colorPalette)
 	sodokuBoard.loadScene();
 
 	scene.add(cursor);
 
-	camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 100 );	//camera.position.set(8.5, 8.5, -20);
+	camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 0.01, 100 );
 	camera.position.set(40, 40, 35);
 
-	controls = new TrackballControls( camera, renderer.domElement );
+	controls = new TrackballControls( camera, gameWindow );
 	controls.target = new THREE.Vector3(9, 9, 9);
 
 	controls.update();
@@ -100,6 +104,7 @@ function onDocumentMouseMove( event ) {
 function changeGeometryColor(){
 	selectedGeometry.material.color.setHex(colorPalette[userInput - 1]);
 }
+
 function geometrySelector(){
 	selectedGeometry = intersectedGeometry;
 	selectedX = intersectedGeometry.position.getComponent(0); 
