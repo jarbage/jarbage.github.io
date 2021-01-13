@@ -22,7 +22,7 @@ var userInput = 1;
 var intersectedGeometry, selectedGeometry;
 var selectedX, selectedY, selectedZ;
 
-var gameWindow = document.getElementById("gameWindow");
+var gamewindow = document.getElementById("gameWindow");
 
 var sodokuBoard;
 var controls;
@@ -61,17 +61,17 @@ function init() {
 
 	scene.add(cursor);
 
-	camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 0.01, 100 );
+	camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 0.01, 200 );
 	camera.position.set(40, 40, 35);
 
-	controls = new TrackballControls( camera, gameWindow );
+	controls = new TrackballControls( camera, gamewindow );
 	controls.target = new THREE.Vector3(9, 9, 9);
 
 	controls.update();
 	
 	raycaster = new THREE.Raycaster();
 
-	gameWindow.appendChild(renderer.domElement);
+	gamewindow.appendChild(renderer.domElement);
 
 	document.addEventListener( 'mousemove', onDocumentMouseMove, false );
 
