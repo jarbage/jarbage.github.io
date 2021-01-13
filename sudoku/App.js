@@ -1,7 +1,7 @@
 import Board from './Board.js';
 import Cube from './Cube.js';
 
-import { TrackballControls } from 'https://unpkg.com/three@0.119.1/examples/jsm/controls/TrackballControls.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.119.1/examples/jsm/controls/OrbitControls.js';
 var WINDOW_WIDTH = window.innerWidth;
 var WINDOW_HEIGHT = window.innerHeight;
 
@@ -64,7 +64,7 @@ function init() {
 	camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 0.01, 200 );
 	camera.position.set(40, 40, 35);
 
-	controls = new TrackballControls( camera, gamewindow );
+	controls = new OrbitControls( camera, gamewindow );
 	controls.target = new THREE.Vector3(9, 9, 9);
 
 	controls.update();
