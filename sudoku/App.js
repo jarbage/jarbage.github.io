@@ -46,7 +46,7 @@ function init() {
 	renderer.setPixelRatio( window.devicePixelRatio );
 
     scene = new THREE.Scene();
-	scene.background = new THREE.Color(0xffffff);
+	scene.background = new THREE.Color(0x000000);
 
 	var light = new THREE.PointLight(0xebe8d6, 2.5, 100);
 	light.position.set( 50, 50, 50 );
