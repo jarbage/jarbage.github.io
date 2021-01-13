@@ -1,7 +1,7 @@
 import Board from './Board.js';
 import Cube from './Cube.js';
 
-import { TrackballControls } from 'https://unpkg.com/three@0.119.1/examples/jsm/controls/OrbitControls.js';
+import { TrackballControls } from 'https://unpkg.com/three@0.119.1/examples/jsm/controls/TrackballControls.js';
 var WINDOW_WIDTH = window.innerWidth;
 var WINDOW_HEIGHT = window.innerHeight;
 
