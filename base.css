@@ -1,0 +1,37 @@
+h1, h2, h3, h4, h5, h6, p{
+    margin: .5em
+}
+
+#capturethekeep{
+    display: grid;
+    grid: auto 1fr auto / auto;
+    margin: 0;
+    height: 80%;
+}
+header{
+    grid-row: 1;
+}
+#gamewindow{
+    display: block;
+    grid-row: 2;
+    background-color: white;
+}
+
+.selected{
+    stroke-width: 5px;
+}
+.unselectable{
+    user-select: none;
+}
+footer{
+    grid-row: 3;
+}
+#footer_container{
+    display: inline-block;
+    width: 100%;
+}
+#info_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+

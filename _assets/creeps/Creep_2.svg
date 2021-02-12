@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .b {
+        fill: #ff8000;
+      }
+    </style>
+  </defs>
+  <circle class="a" cx="250" cy="250" r="181.5"/>
+  <polygon class="a" points="370.59 69 130.41 69 10.32 277 130.41 485 370.59 485 490.68 277 370.59 69"/>
+  <circle class="b" cx="320.5" cy="161" r="48"/>
+</svg>

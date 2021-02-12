@@ -1,0 +1,54 @@
+
+
+<!--CSS-->
+<link rel="stylesheet" 
+      type="text/css" 
+      href="./CaptureTheKeep/base.css">
+
+<!--jQuery-->
+<script type="text/javascript"
+        src="./CaptureTheKeep/node_modules/jquery/dist/jquery.min.js">
+    </script>
+
+<!--D3-->
+<script type="text/javascript"
+        src="./CaptureTheKeep/_js/d3/d3.js">
+    </script>
+    
+<!--initilize CaptureTheKeep-->
+<script type="module" 
+        src="./CaptureTheKeep/_js/CaptureTheKeep/initilize.js">
+    </script>
+
+<body>
+    <div>
+        <header>
+            <h2>Capture the Keep</h2>
+        </header>
+        
+        <capturethekeep id="capturethekeep">
+            <div id="gamewindow" width="100%" background-color="white" perserveApsectRatio="xMidYMax">
+            </div>
+        </capturethekeep>
+        <footer>
+            <div id="footer_container">
+                <h2>Game Info</h2>
+                <div id="info_container">
+                    <div class="game_info">
+                        <h3>Input Register</h3>
+                        <p id="input_register">
+
+                        </p>
+                    </div>
+                    <div class="game_info">
+                        <h3>Keep Coordinates: </h3>
+                        <p id="keep_coordinates"></p>
+
+                    </div>
+                    
+
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>

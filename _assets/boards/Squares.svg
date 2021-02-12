@@ -1,0 +1,414 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" x="950" y="950" width="50" height="50"/>
+    <rect class="a" x="900" y="950" width="50" height="50"/>
+    <rect class="a" x="850" y="950" width="50" height="50"/>
+    <rect class="a" x="800" y="950" width="50" height="50"/>
+    <rect class="a" x="750" y="950" width="50" height="50"/>
+    <rect class="a" x="700" y="950" width="50" height="50"/>
+    <rect class="a" x="650" y="950" width="50" height="50"/>
+    <rect class="a" x="600" y="950" width="50" height="50"/>
+    <rect class="a" x="550" y="950" width="50" height="50"/>
+    <rect class="a" x="500" y="950" width="50" height="50"/>
+    <rect class="a" x="450" y="950" width="50" height="50"/>
+    <rect class="a" x="400" y="950" width="50" height="50"/>
+    <rect class="a" x="350" y="950" width="50" height="50"/>
+    <rect class="a" x="300" y="950" width="50" height="50"/>
+    <rect class="a" x="250" y="950" width="50" height="50"/>
+    <rect class="a" x="200" y="950" width="50" height="50"/>
+    <rect class="a" x="150" y="950" width="50" height="50"/>
+    <rect class="a" x="100" y="950" width="50" height="50"/>
+    <rect class="a" x="50" y="950" width="50" height="50"/>
+    <rect class="a" y="950" width="50" height="50"/>
+    <rect class="a" x="950" y="900" width="50" height="50"/>
+    <rect class="a" x="900" y="900" width="50" height="50"/>
+    <rect class="a" x="850" y="900" width="50" height="50"/>
+    <rect class="a" x="800" y="900" width="50" height="50"/>
+    <rect class="a" x="750" y="900" width="50" height="50"/>
+    <rect class="a" x="700" y="900" width="50" height="50"/>
+    <rect class="a" x="650" y="900" width="50" height="50"/>
+    <rect class="a" x="600" y="900" width="50" height="50"/>
+    <rect class="a" x="550" y="900" width="50" height="50"/>
+    <rect class="a" x="500" y="900" width="50" height="50"/>
+    <rect class="a" x="450" y="900" width="50" height="50"/>
+    <rect class="a" x="400" y="900" width="50" height="50"/>
+    <rect class="a" x="350" y="900" width="50" height="50"/>
+    <rect class="a" x="300" y="900" width="50" height="50"/>
+    <rect class="a" x="250" y="900" width="50" height="50"/>
+    <rect class="a" x="200" y="900" width="50" height="50"/>
+    <rect class="a" x="150" y="900" width="50" height="50"/>
+    <rect class="a" x="100" y="900" width="50" height="50"/>
+    <rect class="a" x="50" y="900" width="50" height="50"/>
+    <rect class="a" y="900" width="50" height="50"/>
+    <rect class="a" x="950" y="850" width="50" height="50"/>
+    <rect class="a" x="900" y="850" width="50" height="50"/>
+    <rect class="a" x="850" y="850" width="50" height="50"/>
+    <rect class="a" x="800" y="850" width="50" height="50"/>
+    <rect class="a" x="750" y="850" width="50" height="50"/>
+    <rect class="a" x="700" y="850" width="50" height="50"/>
+    <rect class="a" x="650" y="850" width="50" height="50"/>
+    <rect class="a" x="600" y="850" width="50" height="50"/>
+    <rect class="a" x="550" y="850" width="50" height="50"/>
+    <rect class="a" x="500" y="850" width="50" height="50"/>
+    <rect class="a" x="450" y="850" width="50" height="50"/>
+    <rect class="a" x="400" y="850" width="50" height="50"/>
+    <rect class="a" x="350" y="850" width="50" height="50"/>
+    <rect class="a" x="300" y="850" width="50" height="50"/>
+    <rect class="a" x="250" y="850" width="50" height="50"/>
+    <rect class="a" x="200" y="850" width="50" height="50"/>
+    <rect class="a" x="150" y="850" width="50" height="50"/>
+    <rect class="a" x="100" y="850" width="50" height="50"/>
+    <rect class="a" x="50" y="850" width="50" height="50"/>
+    <rect class="a" y="850" width="50" height="50"/>
+    <rect class="a" x="950" y="800" width="50" height="50"/>
+    <rect class="a" x="900" y="800" width="50" height="50"/>
+    <rect class="a" x="850" y="800" width="50" height="50"/>
+    <rect class="a" x="800" y="800" width="50" height="50"/>
+    <rect class="a" x="750" y="800" width="50" height="50"/>
+    <rect class="a" x="700" y="800" width="50" height="50"/>
+    <rect class="a" x="650" y="800" width="50" height="50"/>
+    <rect class="a" x="600" y="800" width="50" height="50"/>
+    <rect class="a" x="550" y="800" width="50" height="50"/>
+    <rect class="a" x="500" y="800" width="50" height="50"/>
+    <rect class="a" x="450" y="800" width="50" height="50"/>
+    <rect class="a" x="400" y="800" width="50" height="50"/>
+    <rect class="a" x="350" y="800" width="50" height="50"/>
+    <rect class="a" x="300" y="800" width="50" height="50"/>
+    <rect class="a" x="250" y="800" width="50" height="50"/>
+    <rect class="a" x="200" y="800" width="50" height="50"/>
+    <rect class="a" x="150" y="800" width="50" height="50"/>
+    <rect class="a" x="100" y="800" width="50" height="50"/>
+    <rect class="a" x="50" y="800" width="50" height="50"/>
+    <rect class="a" y="800" width="50" height="50"/>
+    <rect class="a" x="950" y="750" width="50" height="50"/>
+    <rect class="a" x="900" y="750" width="50" height="50"/>
+    <rect class="a" x="850" y="750" width="50" height="50"/>
+    <rect class="a" x="800" y="750" width="50" height="50"/>
+    <rect class="a" x="750" y="750" width="50" height="50"/>
+    <rect class="a" x="700" y="750" width="50" height="50"/>
+    <rect class="a" x="650" y="750" width="50" height="50"/>
+    <rect class="a" x="600" y="750" width="50" height="50"/>
+    <rect class="a" x="550" y="750" width="50" height="50"/>
+    <rect class="a" x="500" y="750" width="50" height="50"/>
+    <rect class="a" x="450" y="750" width="50" height="50"/>
+    <rect class="a" x="400" y="750" width="50" height="50"/>
+    <rect class="a" x="350" y="750" width="50" height="50"/>
+    <rect class="a" x="300" y="750" width="50" height="50"/>
+    <rect class="a" x="250" y="750" width="50" height="50"/>
+    <rect class="a" x="200" y="750" width="50" height="50"/>
+    <rect class="a" x="150" y="750" width="50" height="50"/>
+    <rect class="a" x="100" y="750" width="50" height="50"/>
+    <rect class="a" x="50" y="750" width="50" height="50"/>
+    <rect class="a" y="750" width="50" height="50"/>
+    <rect class="a" x="950" y="700" width="50" height="50"/>
+    <rect class="a" x="900" y="700" width="50" height="50"/>
+    <rect class="a" x="850" y="700" width="50" height="50"/>
+    <rect class="a" x="800" y="700" width="50" height="50"/>
+    <rect class="a" x="750" y="700" width="50" height="50"/>
+    <rect class="a" x="700" y="700" width="50" height="50"/>
+    <rect class="a" x="650" y="700" width="50" height="50"/>
+    <rect class="a" x="600" y="700" width="50" height="50"/>
+    <rect class="a" x="550" y="700" width="50" height="50"/>
+    <rect class="a" x="500" y="700" width="50" height="50"/>
+    <rect class="a" x="450" y="700" width="50" height="50"/>
+    <rect class="a" x="400" y="700" width="50" height="50"/>
+    <rect class="a" x="350" y="700" width="50" height="50"/>
+    <rect class="a" x="300" y="700" width="50" height="50"/>
+    <rect class="a" x="250" y="700" width="50" height="50"/>
+    <rect class="a" x="200" y="700" width="50" height="50"/>
+    <rect class="a" x="150" y="700" width="50" height="50"/>
+    <rect class="a" x="100" y="700" width="50" height="50"/>
+    <rect class="a" x="50" y="700" width="50" height="50"/>
+    <rect class="a" y="700" width="50" height="50"/>
+    <rect class="a" x="950" y="650" width="50" height="50"/>
+    <rect class="a" x="900" y="650" width="50" height="50"/>
+    <rect class="a" x="850" y="650" width="50" height="50"/>
+    <rect class="a" x="800" y="650" width="50" height="50"/>
+    <rect class="a" x="750" y="650" width="50" height="50"/>
+    <rect class="a" x="700" y="650" width="50" height="50"/>
+    <rect class="a" x="650" y="650" width="50" height="50"/>
+    <rect class="a" x="600" y="650" width="50" height="50"/>
+    <rect class="a" x="550" y="650" width="50" height="50"/>
+    <rect class="a" x="500" y="650" width="50" height="50"/>
+    <rect class="a" x="450" y="650" width="50" height="50"/>
+    <rect class="a" x="400" y="650" width="50" height="50"/>
+    <rect class="a" x="350" y="650" width="50" height="50"/>
+    <rect class="a" x="300" y="650" width="50" height="50"/>
+    <rect class="a" x="250" y="650" width="50" height="50"/>
+    <rect class="a" x="200" y="650" width="50" height="50"/>
+    <rect class="a" x="150" y="650" width="50" height="50"/>
+    <rect class="a" x="100" y="650" width="50" height="50"/>
+    <rect class="a" x="50" y="650" width="50" height="50"/>
+    <rect class="a" y="650" width="50" height="50"/>
+    <rect class="a" x="950" y="600" width="50" height="50"/>
+    <rect class="a" x="900" y="600" width="50" height="50"/>
+    <rect class="a" x="850" y="600" width="50" height="50"/>
+    <rect class="a" x="800" y="600" width="50" height="50"/>
+    <rect class="a" x="750" y="600" width="50" height="50"/>
+    <rect class="a" x="700" y="600" width="50" height="50"/>
+    <rect class="a" x="650" y="600" width="50" height="50"/>
+    <rect class="a" x="600" y="600" width="50" height="50"/>
+    <rect class="a" x="550" y="600" width="50" height="50"/>
+    <rect class="a" x="500" y="600" width="50" height="50"/>
+    <rect class="a" x="450" y="600" width="50" height="50"/>
+    <rect class="a" x="400" y="600" width="50" height="50"/>
+    <rect class="a" x="350" y="600" width="50" height="50"/>
+    <rect class="a" x="300" y="600" width="50" height="50"/>
+    <rect class="a" x="250" y="600" width="50" height="50"/>
+    <rect class="a" x="200" y="600" width="50" height="50"/>
+    <rect class="a" x="150" y="600" width="50" height="50"/>
+    <rect class="a" x="100" y="600" width="50" height="50"/>
+    <rect class="a" x="50" y="600" width="50" height="50"/>
+    <rect class="a" y="600" width="50" height="50"/>
+    <rect class="a" x="950" y="550" width="50" height="50"/>
+    <rect class="a" x="900" y="550" width="50" height="50"/>
+    <rect class="a" x="850" y="550" width="50" height="50"/>
+    <rect class="a" x="800" y="550" width="50" height="50"/>
+    <rect class="a" x="750" y="550" width="50" height="50"/>
+    <rect class="a" x="700" y="550" width="50" height="50"/>
+    <rect class="a" x="650" y="550" width="50" height="50"/>
+    <rect class="a" x="600" y="550" width="50" height="50"/>
+    <rect class="a" x="550" y="550" width="50" height="50"/>
+    <rect class="a" x="500" y="550" width="50" height="50"/>
+    <rect class="a" x="450" y="550" width="50" height="50"/>
+    <rect class="a" x="400" y="550" width="50" height="50"/>
+    <rect class="a" x="350" y="550" width="50" height="50"/>
+    <rect class="a" x="300" y="550" width="50" height="50"/>
+    <rect class="a" x="250" y="550" width="50" height="50"/>
+    <rect class="a" x="200" y="550" width="50" height="50"/>
+    <rect class="a" x="150" y="550" width="50" height="50"/>
+    <rect class="a" x="100" y="550" width="50" height="50"/>
+    <rect class="a" x="50" y="550" width="50" height="50"/>
+    <rect class="a" y="550" width="50" height="50"/>
+    <rect class="a" x="950" y="500" width="50" height="50"/>
+    <rect class="a" x="900" y="500" width="50" height="50"/>
+    <rect class="a" x="850" y="500" width="50" height="50"/>
+    <rect class="a" x="800" y="500" width="50" height="50"/>
+    <rect class="a" x="750" y="500" width="50" height="50"/>
+    <rect class="a" x="700" y="500" width="50" height="50"/>
+    <rect class="a" x="650" y="500" width="50" height="50"/>
+    <rect class="a" x="600" y="500" width="50" height="50"/>
+    <rect class="a" x="550" y="500" width="50" height="50"/>
+    <rect class="a" x="500" y="500" width="50" height="50"/>
+    <rect class="a" x="450" y="500" width="50" height="50"/>
+    <rect class="a" x="400" y="500" width="50" height="50"/>
+    <rect class="a" x="350" y="500" width="50" height="50"/>
+    <rect class="a" x="300" y="500" width="50" height="50"/>
+    <rect class="a" x="250" y="500" width="50" height="50"/>
+    <rect class="a" x="200" y="500" width="50" height="50"/>
+    <rect class="a" x="150" y="500" width="50" height="50"/>
+    <rect class="a" x="100" y="500" width="50" height="50"/>
+    <rect class="a" x="50" y="500" width="50" height="50"/>
+    <rect class="a" y="500" width="50" height="50"/>
+    <rect class="a" x="950" y="450" width="50" height="50"/>
+    <rect class="a" x="900" y="450" width="50" height="50"/>
+    <rect class="a" x="850" y="450" width="50" height="50"/>
+    <rect class="a" x="800" y="450" width="50" height="50"/>
+    <rect class="a" x="750" y="450" width="50" height="50"/>
+    <rect class="a" x="700" y="450" width="50" height="50"/>
+    <rect class="a" x="650" y="450" width="50" height="50"/>
+    <rect class="a" x="600" y="450" width="50" height="50"/>
+    <rect class="a" x="550" y="450" width="50" height="50"/>
+    <rect class="a" x="500" y="450" width="50" height="50"/>
+    <rect class="a" x="450" y="450" width="50" height="50"/>
+    <rect class="a" x="400" y="450" width="50" height="50"/>
+    <rect class="a" x="350" y="450" width="50" height="50"/>
+    <rect class="a" x="300" y="450" width="50" height="50"/>
+    <rect class="a" x="250" y="450" width="50" height="50"/>
+    <rect class="a" x="200" y="450" width="50" height="50"/>
+    <rect class="a" x="150" y="450" width="50" height="50"/>
+    <rect class="a" x="100" y="450" width="50" height="50"/>
+    <rect class="a" x="50" y="450" width="50" height="50"/>
+    <rect class="a" y="450" width="50" height="50"/>
+    <rect class="a" x="950" y="400" width="50" height="50"/>
+    <rect class="a" x="900" y="400" width="50" height="50"/>
+    <rect class="a" x="850" y="400" width="50" height="50"/>
+    <rect class="a" x="800" y="400" width="50" height="50"/>
+    <rect class="a" x="750" y="400" width="50" height="50"/>
+    <rect class="a" x="700" y="400" width="50" height="50"/>
+    <rect class="a" x="650" y="400" width="50" height="50"/>
+    <rect class="a" x="600" y="400" width="50" height="50"/>
+    <rect class="a" x="550" y="400" width="50" height="50"/>
+    <rect class="a" x="500" y="400" width="50" height="50"/>
+    <rect class="a" x="450" y="400" width="50" height="50"/>
+    <rect class="a" x="400" y="400" width="50" height="50"/>
+    <rect class="a" x="350" y="400" width="50" height="50"/>
+    <rect class="a" x="300" y="400" width="50" height="50"/>
+    <rect class="a" x="250" y="400" width="50" height="50"/>
+    <rect class="a" x="200" y="400" width="50" height="50"/>
+    <rect class="a" x="150" y="400" width="50" height="50"/>
+    <rect class="a" x="100" y="400" width="50" height="50"/>
+    <rect class="a" x="50" y="400" width="50" height="50"/>
+    <rect class="a" y="400" width="50" height="50"/>
+    <rect class="a" x="950" y="350" width="50" height="50"/>
+    <rect class="a" x="900" y="350" width="50" height="50"/>
+    <rect class="a" x="850" y="350" width="50" height="50"/>
+    <rect class="a" x="800" y="350" width="50" height="50"/>
+    <rect class="a" x="750" y="350" width="50" height="50"/>
+    <rect class="a" x="700" y="350" width="50" height="50"/>
+    <rect class="a" x="650" y="350" width="50" height="50"/>
+    <rect class="a" x="600" y="350" width="50" height="50"/>
+    <rect class="a" x="550" y="350" width="50" height="50"/>
+    <rect class="a" x="500" y="350" width="50" height="50"/>
+    <rect class="a" x="450" y="350" width="50" height="50"/>
+    <rect class="a" x="400" y="350" width="50" height="50"/>
+    <rect class="a" x="350" y="350" width="50" height="50"/>
+    <rect class="a" x="300" y="350" width="50" height="50"/>
+    <rect class="a" x="250" y="350" width="50" height="50"/>
+    <rect class="a" x="200" y="350" width="50" height="50"/>
+    <rect class="a" x="150" y="350" width="50" height="50"/>
+    <rect class="a" x="100" y="350" width="50" height="50"/>
+    <rect class="a" x="50" y="350" width="50" height="50"/>
+    <rect class="a" y="350" width="50" height="50"/>
+    <rect class="a" x="950" y="300" width="50" height="50"/>
+    <rect class="a" x="900" y="300" width="50" height="50"/>
+    <rect class="a" x="850" y="300" width="50" height="50"/>
+    <rect class="a" x="800" y="300" width="50" height="50"/>
+    <rect class="a" x="750" y="300" width="50" height="50"/>
+    <rect class="a" x="700" y="300" width="50" height="50"/>
+    <rect class="a" x="650" y="300" width="50" height="50"/>
+    <rect class="a" x="600" y="300" width="50" height="50"/>
+    <rect class="a" x="550" y="300" width="50" height="50"/>
+    <rect class="a" x="500" y="300" width="50" height="50"/>
+    <rect class="a" x="450" y="300" width="50" height="50"/>
+    <rect class="a" x="400" y="300" width="50" height="50"/>
+    <rect class="a" x="350" y="300" width="50" height="50"/>
+    <rect class="a" x="300" y="300" width="50" height="50"/>
+    <rect class="a" x="250" y="300" width="50" height="50"/>
+    <rect class="a" x="200" y="300" width="50" height="50"/>
+    <rect class="a" x="150" y="300" width="50" height="50"/>
+    <rect class="a" x="100" y="300" width="50" height="50"/>
+    <rect class="a" x="50" y="300" width="50" height="50"/>
+    <rect class="a" y="300" width="50" height="50"/>
+    <rect class="a" x="950" y="250" width="50" height="50"/>
+    <rect class="a" x="900" y="250" width="50" height="50"/>
+    <rect class="a" x="850" y="250" width="50" height="50"/>
+    <rect class="a" x="800" y="250" width="50" height="50"/>
+    <rect class="a" x="750" y="250" width="50" height="50"/>
+    <rect class="a" x="700" y="250" width="50" height="50"/>
+    <rect class="a" x="650" y="250" width="50" height="50"/>
+    <rect class="a" x="600" y="250" width="50" height="50"/>
+    <rect class="a" x="550" y="250" width="50" height="50"/>
+    <rect class="a" x="500" y="250" width="50" height="50"/>
+    <rect class="a" x="450" y="250" width="50" height="50"/>
+    <rect class="a" x="400" y="250" width="50" height="50"/>
+    <rect class="a" x="350" y="250" width="50" height="50"/>
+    <rect class="a" x="300" y="250" width="50" height="50"/>
+    <rect class="a" x="250" y="250" width="50" height="50"/>
+    <rect class="a" x="200" y="250" width="50" height="50"/>
+    <rect class="a" x="150" y="250" width="50" height="50"/>
+    <rect class="a" x="100" y="250" width="50" height="50"/>
+    <rect class="a" x="50" y="250" width="50" height="50"/>
+    <rect class="a" y="250" width="50" height="50"/>
+    <rect class="a" x="950" y="200" width="50" height="50"/>
+    <rect class="a" x="900" y="200" width="50" height="50"/>
+    <rect class="a" x="850" y="200" width="50" height="50"/>
+    <rect class="a" x="800" y="200" width="50" height="50"/>
+    <rect class="a" x="750" y="200" width="50" height="50"/>
+    <rect class="a" x="700" y="200" width="50" height="50"/>
+    <rect class="a" x="650" y="200" width="50" height="50"/>
+    <rect class="a" x="600" y="200" width="50" height="50"/>
+    <rect class="a" x="550" y="200" width="50" height="50"/>
+    <rect class="a" x="500" y="200" width="50" height="50"/>
+    <rect class="a" x="450" y="200" width="50" height="50"/>
+    <rect class="a" x="400" y="200" width="50" height="50"/>
+    <rect class="a" x="350" y="200" width="50" height="50"/>
+    <rect class="a" x="300" y="200" width="50" height="50"/>
+    <rect class="a" x="250" y="200" width="50" height="50"/>
+    <rect class="a" x="200" y="200" width="50" height="50"/>
+    <rect class="a" x="150" y="200" width="50" height="50"/>
+    <rect class="a" x="100" y="200" width="50" height="50"/>
+    <rect class="a" x="50" y="200" width="50" height="50"/>
+    <rect class="a" y="200" width="50" height="50"/>
+    <rect class="a" x="950" y="150" width="50" height="50"/>
+    <rect class="a" x="900" y="150" width="50" height="50"/>
+    <rect class="a" x="850" y="150" width="50" height="50"/>
+    <rect class="a" x="800" y="150" width="50" height="50"/>
+    <rect class="a" x="750" y="150" width="50" height="50"/>
+    <rect class="a" x="700" y="150" width="50" height="50"/>
+    <rect class="a" x="650" y="150" width="50" height="50"/>
+    <rect class="a" x="600" y="150" width="50" height="50"/>
+    <rect class="a" x="550" y="150" width="50" height="50"/>
+    <rect class="a" x="500" y="150" width="50" height="50"/>
+    <rect class="a" x="450" y="150" width="50" height="50"/>
+    <rect class="a" x="400" y="150" width="50" height="50"/>
+    <rect class="a" x="350" y="150" width="50" height="50"/>
+    <rect class="a" x="300" y="150" width="50" height="50"/>
+    <rect class="a" x="250" y="150" width="50" height="50"/>
+    <rect class="a" x="200" y="150" width="50" height="50"/>
+    <rect class="a" x="150" y="150" width="50" height="50"/>
+    <rect class="a" x="100" y="150" width="50" height="50"/>
+    <rect class="a" x="50" y="150" width="50" height="50"/>
+    <rect class="a" y="150" width="50" height="50"/>
+    <rect class="a" x="950" y="100" width="50" height="50"/>
+    <rect class="a" x="900" y="100" width="50" height="50"/>
+    <rect class="a" x="850" y="100" width="50" height="50"/>
+    <rect class="a" x="800" y="100" width="50" height="50"/>
+    <rect class="a" x="750" y="100" width="50" height="50"/>
+    <rect class="a" x="700" y="100" width="50" height="50"/>
+    <rect class="a" x="650" y="100" width="50" height="50"/>
+    <rect class="a" x="600" y="100" width="50" height="50"/>
+    <rect class="a" x="550" y="100" width="50" height="50"/>
+    <rect class="a" x="500" y="100" width="50" height="50"/>
+    <rect class="a" x="450" y="100" width="50" height="50"/>
+    <rect class="a" x="400" y="100" width="50" height="50"/>
+    <rect class="a" x="350" y="100" width="50" height="50"/>
+    <rect class="a" x="300" y="100" width="50" height="50"/>
+    <rect class="a" x="250" y="100" width="50" height="50"/>
+    <rect class="a" x="200" y="100" width="50" height="50"/>
+    <rect class="a" x="150" y="100" width="50" height="50"/>
+    <rect class="a" x="100" y="100" width="50" height="50"/>
+    <rect class="a" x="50" y="100" width="50" height="50"/>
+    <rect class="a" y="100" width="50" height="50"/>
+    <rect class="a" x="950" y="50" width="50" height="50"/>
+    <rect class="a" x="900" y="50" width="50" height="50"/>
+    <rect class="a" x="850" y="50" width="50" height="50"/>
+    <rect class="a" x="800" y="50" width="50" height="50"/>
+    <rect class="a" x="750" y="50" width="50" height="50"/>
+    <rect class="a" x="700" y="50" width="50" height="50"/>
+    <rect class="a" x="650" y="50" width="50" height="50"/>
+    <rect class="a" x="600" y="50" width="50" height="50"/>
+    <rect class="a" x="550" y="50" width="50" height="50"/>
+    <rect class="a" x="500" y="50" width="50" height="50"/>
+    <rect class="a" x="450" y="50" width="50" height="50"/>
+    <rect class="a" x="400" y="50" width="50" height="50"/>
+    <rect class="a" x="350" y="50" width="50" height="50"/>
+    <rect class="a" x="300" y="50" width="50" height="50"/>
+    <rect class="a" x="250" y="50" width="50" height="50"/>
+    <rect class="a" x="200" y="50" width="50" height="50"/>
+    <rect class="a" x="150" y="50" width="50" height="50"/>
+    <rect class="a" x="100" y="50" width="50" height="50"/>
+    <rect class="a" x="50" y="50" width="50" height="50"/>
+    <rect class="a" y="50" width="50" height="50"/>
+    <rect class="a" x="950" width="50" height="50"/>
+    <rect class="a" x="900" width="50" height="50"/>
+    <rect class="a" x="850" width="50" height="50"/>
+    <rect class="a" x="800" width="50" height="50"/>
+    <rect class="a" x="750" width="50" height="50"/>
+    <rect class="a" x="700" width="50" height="50"/>
+    <rect class="a" x="650" width="50" height="50"/>
+    <rect class="a" x="600" width="50" height="50"/>
+    <rect class="a" x="550" width="50" height="50"/>
+    <rect class="a" x="500" width="50" height="50"/>
+    <rect class="a" x="450" width="50" height="50"/>
+    <rect class="a" x="400" width="50" height="50"/>
+    <rect class="a" x="350" width="50" height="50"/>
+    <rect class="a" x="300" width="50" height="50"/>
+    <rect class="a" x="250" width="50" height="50"/>
+    <rect class="a" x="200" width="50" height="50"/>
+    <rect class="a" x="150" width="50" height="50"/>
+    <rect class="a" x="100" width="50" height="50"/>
+    <rect class="a" x="50" width="50" height="50"/>
+    <rect class="a" width="50" height="50"/>
+  </g>
+</svg>

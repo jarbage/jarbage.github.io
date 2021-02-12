@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <path class="a" d="M314.87,405.3,250,391l-63.72,14.12c-46.86,10.39-84.82-38.21-63.41-81.16L250.5,68h0L378.21,324.12C399.61,367.05,361.71,415.62,314.87,405.3Z"/>
+</svg>
