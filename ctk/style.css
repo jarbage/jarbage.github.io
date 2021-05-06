@@ -1,0 +1,18 @@
+body{
+    margin: 0px !important;
+}
+
+#ctk_container{
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    -webkit-user-select: none;
+    user-select: none;
+}
+canvas{
+    -webkit-user-select: none;
+    user-select: none;
+    
+
+    overflow: hidden;
+}
