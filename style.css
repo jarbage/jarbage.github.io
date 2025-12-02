@@ -1,15 +1,12 @@
-#container{
-    display: grid;
-    width: 98vw;
-    height: 98vh;
-    margin: 0.25rem;
-    padding: 0.25rem;
-    border: solid black 1px;
-}
-
-#body{
+body{
     display: flex;
     flex-flow: column nowrap;
+    height: 100vh;
+}
+
+#container{
+    display: grid;
+    border: solid black 1px;
 }
 
 .body_part{
@@ -18,13 +15,13 @@
     padding: 0.25rem;
 }
 #head{
-    height: 10vh;
+    height: 5vh;
 }
 #shoulders{
     height: 5vh;
 }
 #torso{
-    height: 60vh;
+    height: 65vh;
     background-color: gray;
 }
 #gamewindow{
@@ -55,7 +52,7 @@
 }
 
 #legs{
-    height: 15vh;
+    height: 5vh;
 }
 #feet{
     height: 5vh;
