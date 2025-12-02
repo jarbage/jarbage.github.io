@@ -1,18 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>3JS Template</title>
+		<link rel="stylesheet" 
+      			type="text/css" 
+      			href="./base.css">
+		<style>
+			body { margin: 0; }
+		</style>
 
-<head>
-    <meta charset="utf-8">
-    <title>Jared Lambert's Github</title>
-    <base href=".">
-    <link rel="stylesheet" type="text/css" href="./style.css">
-	<script src="https://threejs.org/build/three.js"></script>
-<!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/94/three.min.js"></script> -->
-</head>
+		
+	</head>
+	<body>
+		<div id="container" class="container">
+			<div id="body" class="body">
+				<div id="head" class="body_part">
+				</div>
 
-<iframe class="homepage_content" src="./ctk/index.html" height="100%" width="100%"></iframe>
+				<div id="shoulders" class="body_part">
+				</div>
 
-<footer>
-	
-</footer>
+				<div id="torso" class="body_part">
+					<div id="arms" class="">
+					</div>
+					<div id="gamewindow" class="outer">
+					</div>
+				</div>
+
+				<div id="waist" class="body_part">
+					<div id="app_controls" class="ui">
+						<div id="app_controls_left" class="app_controls left">
+							<button class="app_control_buttons" id="start">start</button>
+							<button class="app_control_buttons" id="stop">stop</button>
+						</div>
+						
+						<div id="app_controls_right" class="app_controls right">
+							<button class="app_control_buttons" id="save">save</button>
+							<button class="app_control_buttons" id="load">load</button>
+							<button class="app_control_buttons" id="unload">unload</button>
+						</div>
+						
+					</div>
+				</div>
+
+				<div id="legs" class="body_part">
+				</div>
+
+				<div id="feet" class="body_part">
+				</div>
+			</div>
+		</div>
+
+
+
+
+	</body>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js" type="module"></script> -->
+	<script type="module" src="./core/game.js"></script>
 </html>
