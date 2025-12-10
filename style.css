@@ -1,60 +1,41 @@
 body{
-    display: flex;
-    flex-flow: column nowrap;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
     height: 100vh;
+    width:100vw;
+    margin: 0px;
+    overflow: hidden;
+}
+
+header{
+    padding: 1px;
+    border: solid black 1px;
 }
 
 #container{
-    display: grid;
+    display: block;
     border: solid black 1px;
 }
+#renderer{
+    display: block;
+    overflow:hidden;
+}
 
-.body_part{
+footer{
+    padding: 1px;
     border: solid black 1px;
-    margin: 0.25rem;
-    padding: 0.25rem;
 }
-#head{
-    height: 5vh;
-}
-#shoulders{
-    height: 5vh;
-}
-#torso{
-    height: 65vh;
-    background-color: gray;
-}
-#gamewindow{
+#tileModifiers{
     display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-    height: 100%;
-}
-
-.cell-container{
-    background-color: green;
-    border: solid lightgreen 1px;
-}
-
-#waist{
-    height: 5vh;
-}
-#app_controls{
-    display: flex;
-    height: 100%;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-
-.app_control_buttons{
-    height: 75%;
-    margin: 0.25rem;
+#tilePalette{
+    display: flex;
+    flex-flow: column nowrap;
 }
-
-#legs{
-    height: 5vh;
-}
-#feet{
-    height: 5vh;
+#tileOptions{
+    display: flex;
+    flex-flow: column nowrap;
 }
 

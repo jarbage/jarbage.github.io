@@ -2,12 +2,14 @@ import Model from './model.js'
 import View from './view.js'
 import Controller from './controller.js'
 
+const container = document.getElementById('container');
+
 
 class Game {
     constructor() {
         this.model = new Model();
-        this.view = new View(this.model);
-        this.controller = new Controller(this.view);
+        this.view = new View(this.model, container);
+        this.controller = new Controller(this, this.model, this.view);
     }
 
     onTimer() {

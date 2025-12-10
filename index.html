@@ -10,63 +10,33 @@
 			body { margin: 0; }
 		</style>
 
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 	<body>
+		<header>
+		</header>
+
 		<div id="container" class="container">
-			<div id="body" class="body">
-				<div id="head" class="body_part">
-				</div>
-
-				<div id="shoulders" class="body_part">
-				</div>
-
-				<div id="torso" class="body_part">
-					<div id="arms" class="">
-					</div>
-					<div id="gamewindow" class="outer">
-					</div>
-				</div>
-
-				<div id="waist" class="body_part">
-					<div id="app_controls" class="ui">
-						<div id="app_controls_left" class="app_controls left">
-							<button class="app_control_buttons" id="start">start</button>
-							<button class="app_control_buttons" id="stop">stop</button>
-						</div>
-						
-						<div id="app_controls_right" class="app_controls right">
-							
-						</div>
-						
-					</div>
-				</div>
-
-				<div id="legs" class="body_part">
-					<div id="app_controls" class="ui">
-						<div id="app_controls_left" class="app_controls left">
-							<button class="app_control_buttons" id="ctk">Capture the Keep</button>
-							<button class="app_control_buttons" id="sudoku">Sudoku</button>
-							<button class="app_control_buttons" id="Digibrush">Digital Paintbrush</button>
-							<button class="app_control_buttons" id="2dCTK">2D CTK</button>
-						</div>
-						
-						<div id="app_controls_right" class="app_controls right">
-
-						</div>
-						
-					</div>
-				</div>
-
-				<div id="feet" class="body_part">
-				</div>
-			</div>
 		</div>
 
-
-
-
+		<footer>
+			<div id="tileModifiers">
+				<div id="tilePalette">
+					<input class="colorPalette" type="color" value="#26a6a8"/>
+					<input class="colorPalette" type="color" value="#c43128"/>
+					<input class="colorPalette" type="color" value="#71D011"/>
+					<input class="colorPalette" type="color" value="#E9c58B"/>
+				</div>
+				<div id="tileOptions">
+					<label>Amount</label>
+					<input id="amount" type="number" value="200">
+					<label>Height</label>
+					<input id="height" type="number" value="10">
+					<label>Width</label>
+					<input id="width"  type="number" value="10">
+				</div>
+			</div>
+		</footer>
 	</body>
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js" type="module"></script> -->
-	<script type="module" src="./core/game.js"></script>
+	<script type="module" src="./js/core/game.js"></script>
 </html>
