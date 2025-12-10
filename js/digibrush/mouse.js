@@ -1,20 +1,21 @@
 export default class Mouse{
-    constructor(window){
-        this.window = window
+    constructor(view){
+        this.view = view;
+        this.canvas = view.canvas;
         this.x = 0;
         this.y = 0;
         this.down = false;
         this.init();
     }
     init(){
-        document.addEventListener('mousemove', (e)=>{
+        this.canvas.addEventListener('mousemove', (e)=>{
             e.preventDefault();
             this.x = e.clientX
             this.y = e.clientY
         });
-        document.addEventListener('mousedown', (e)=>{
+        this.canvas.addEventListener('mousedown', (e)=>{
             e.preventDefault();
-            console.log(e)
+            console.log(this.view.assetArray.length)
             if(e.which === 1){
                 this.down = true;
             }
@@ -22,7 +23,7 @@ export default class Mouse{
                 this.reset = true;
             } 
         });
-        document.addEventListener('mouseup', (e)=>{
+        this.canvas.addEventListener('mouseup', (e)=>{
             e.preventDefault();
             if(e.which === 1){
                 this.down = false;

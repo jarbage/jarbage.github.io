@@ -16,40 +16,59 @@ export default class Controller {
       this.changed = false;
 
       this.amount = amountInput.value
-      this.palette = new Array();
-
-      paletteInputs.forEach((child) => this.palette.push(child.value))
+      this.palette = paletteInputs;
+      this.height = heightInput.value;
+      this.width = widthInput.value;
       
-      this.mouse = new Mouse(this.view.canvas);
+      this.mouse = new Mouse(this.view);
 
       this.brush = new Array();
 
-      this.build();
-      this.addListeners()
+      this.build()
     }
     build(){
       for(let i = 0; i < amountInput.value; i++){
-        let tile = this.model.createTile(widthInput.value, heightInput.value, this.palette);
+        let tile = this.model.createTile(this.width, this.height, this.palette);
         this.view.canvas.append(tile.div);
         this.view.assetArray.push(tile);
       }
     }
 
-    addListeners(){
-      amountInput.addEventListener("change", this.inputsChanged);
-    }
 
-    inputsChanged(){
-      //clear the view
-      this.view.clear();
-      //rebuild
-      this.build()
+    inputsCheck(){
+      //Amount
+      if(amountInput.value != this.amount){
+        this.amount = amountInput.value;
+        this.changed = true;
+      }
+
+      //Palette
+      if(paletteInputs != this.palette){
+        this.palette = paletteInputs;
+        this.changed = true;
+      }
+
+      //Height
+      if(this.height != heightInput.value){
+        this.height = heightInput.value;
+        this.changed = true;
+      }
+
+      //Height
+      if(this.width != widthInput.value){
+        this.width = widthInput.value;
+        this.changed = true;
+      }
+
     }
     update(){
+      this.inputsCheck();
       this.view.setMotion(this.mouse.x, this.mouse.y)
 
       if(this.changed != false){
-        this.model.update(this.amount, this.palette);
+        this.view.clear();
+        this.build();
+        this.changed = false;
       }
     }
     

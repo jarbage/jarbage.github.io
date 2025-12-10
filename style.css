@@ -15,6 +15,7 @@ header{
 #container{
     display: block;
     border: solid black 1px;
+    overflow: hidden;
 }
 #renderer{
     display: block;

@@ -43,7 +43,7 @@ export default class Tile{
 
     }
     changeColor(){
-        this.div.style.backgroundColor = this.palette[Math.floor((Math.random() * this.palette.length))]
+        this.div.style.backgroundColor = this.palette[Math.floor((Math.random() * this.palette.length))].value
     }
     changeOpacity(){
         this.div.style.opacity = 1;
@@ -103,7 +103,7 @@ export default class Tile{
       }
 
       addNoiseToInt(inputInt) {
-        let noise = Math.floor(Math.random() * 15); // Generates a random integer between 1-10 (inclusive)
+        let noise = Math.floor(Math.random() * 10); // Generates a random integer between 1-10 (inclusive)
         let isPositive = Math.random() < 0.5; // Randomly determines whether to add or subtract the noise value
         let noiseValue = isPositive ? noise : -noise; // Adds or subtracts the noise value based on the previous random determination
         let outputInt = inputInt + noiseValue; // Adds the noise value to the input integer to get the modified output
